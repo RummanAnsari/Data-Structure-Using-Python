@@ -30,6 +30,32 @@ print("Hello,", end=" ")
 print("World!") # Hello, World!
 
 
+# 7. Printing a list:
+fruits = ["apple", "banana", "orange"]
+print(fruits)
+# ['apple', 'banana', 'orange']
+
+
+# 8. Printing a dictionary:
+person = {"name": "John", "age": 25, "city": "New York"}
+print(person)
+# {'name': 'John', 'age': 25, 'city': 'New York'}
+
+# 9. Printing a boolean value:
+is_student = True
+print("Am I a student?", is_student)
+# Am I a student? True
+
+
+# 10. Printing with a specified width:
+name = "John"
+age = 25
+print(f"Name: {name:10} Age: {age}")
+# Name: John       Age: 25
+
+ 
+
+
 
 
 
